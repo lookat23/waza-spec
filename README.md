@@ -1,5 +1,7 @@
 # waza-spec
 
+English | [简体中文](README.zh-CN.md)
+
 Waza-compatible task specs for larger Chinese-first work.
 
 `waza-spec` is a lightweight lifecycle layer for projects that already like Waza's taste but need a durable place to hold scope, decisions, boundaries, acceptance criteria, and execution history.
