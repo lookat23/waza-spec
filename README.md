@@ -8,7 +8,7 @@ Waza-compatible task specs for larger Chinese-first work.
 
 The current target user is Chinese-first. Specs keep English structural keywords such as `Intent`, `Boundaries`, `Scenario`, `Given`, `When`, and `Then`, while the actual task content should usually be written in Chinese.
 
-It is not a replacement for `agent-spec`. It starts Markdown-first: templates, one skill, examples, and a disciplined workflow. A CLI can come later if the workflow proves useful across real projects.
+It starts Markdown-first: templates, one skill, examples, and a disciplined workflow. A CLI can come later if the workflow proves useful across real projects.
 
 ## Why
 
@@ -85,14 +85,6 @@ scripts/
 - Acceptance criteria should be observable. If nobody can check it, it does not belong in completion.
 - Boundaries should name files, directories, behaviors, and explicit non-goals.
 - Closeout matters. A task is not done until deviations and remaining risk are written down.
-
-## Relationship To agent-spec
-
-`agent-spec` is contract-driven verification with a CLI, parser, linter, lifecycle gate, and guard.
-
-`waza-spec` is a Waza-shaped lifecycle format. It can later integrate with `agent-spec`, but v0.1 intentionally avoids a binary dependency.
-
-Use `agent-spec` when you need deterministic machine verification. Use `waza-spec` when the main problem is keeping a larger Waza-driven task coherent across planning, implementation, review, and closeout.
 
 ## Status
 
